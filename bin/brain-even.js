@@ -12,11 +12,11 @@ const even = () => {
     console.log(`Question: ${question1}`);
     const playerAnswer = readlineSync.question('Your answer : ');
     if (playerAnswer !== answer) {
-        return console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${name}!`);
+      return console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${name}!`);
     }
     console.log('Correct!');
   }
-  return `Congratulations, ${name}`;
+  return console.log(`Congratulations, ${name}!`);
 };
 
 even();
