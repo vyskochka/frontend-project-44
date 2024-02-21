@@ -11,15 +11,16 @@ const calc = () => {
     number1 = Math.floor(Math.random() * 101);
     number2 = Math.floor(Math.random() * 101);
     let answer = 0;
+    let question = `${number1} + ${number2}`
     if (i === 0) {
         answer = number1 + number2;
-        console.log(`Question: ${number1} + ${number2}`);
+        console.log(`Question: ${question}`);
     } else if (i === 1) {
         answer = number1 - number2;
-        console.log(`Question: ${number1} - ${number2}`);
+        console.log(`Question: ${question}`);
     } else if (i === 2) {
         answer = number1 * number2;
-        console.log(`Question: ${number1} * ${number2}`);
+        console.log(`Question: ${question}`);
     }
     const playerAnswer = readlineSync.question('Your answer : ');
     if (playerAnswer !== String(answer)){
