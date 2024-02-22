@@ -7,7 +7,7 @@ const body = (rules, task) => {
   for (let i = 0; i < 3; i += 1) {
     const game = task();
     console.log(`Question: ${game[0]}`);
-    const playerAnswer = readlineSync.question('Your answer : ');
+    const playerAnswer = readlineSync.question('Your answer: ');
     if (playerAnswer !== game[1]) {
       return console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${game[1]}'.\nLet's try again, ${playerName}!`);
     }
