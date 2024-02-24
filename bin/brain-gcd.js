@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import body from '../src/index.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';

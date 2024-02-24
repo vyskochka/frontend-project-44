@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import body from '../src/index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
