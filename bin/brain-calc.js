@@ -5,7 +5,7 @@ const rules = 'What is the result of the expression?';
 const calc = () => {
   let question = '';
   let answer = 0;
-  const i = Math.floor(Math.random() * 3);
+  const i = Math.floor(Math.random() * 3); // случайно число от 0 до 2.
   const number1 = Math.floor(Math.random() * 101);
   const number2 = Math.floor(Math.random() * 101);
   switch (i) {
