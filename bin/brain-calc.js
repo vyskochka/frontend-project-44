@@ -17,7 +17,7 @@ const calc = () => {
       answer = number1 - number2;
       question = `${number1} - ${number2}`;
       break;
-    default: 
+    default:
       answer = number1 * number2;
       question = `${number1} * ${number2}`;
   }

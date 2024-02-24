@@ -4,7 +4,13 @@ const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 const even = () => {
   let answer = '';
   const question = Math.floor(Math.random() * 101);
-  question % 2 === 0 ? answer = 'yes' : answer = 'no';
+  switch (question % 2) {
+    case 0:
+      answer = 'yes';
+      break;
+    default:
+      answer = 'no';
+  }
   return [question, answer];
 };
 
