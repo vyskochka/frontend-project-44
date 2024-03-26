@@ -4,6 +4,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/8fbe21c7d72c60fb732b/maintainability)](https://codeclimate.com/github/vyskochka/frontend-project-44/maintainability)
 
 brain-even
+
+<script src="https://asciinema.org/a/eaqatuLp9zphjZKipDyppiQqt" id="asciicast-bJMOlPe5F4mFLY0Rl6fiJSOp3" async></script>
+
 https://asciinema.org/a/eaqatuLp9zphjZKipDyppiQqt
 
 brain-calc
